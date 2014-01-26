@@ -3,6 +3,10 @@ booster
 
 A boost converter Addon for Nathan Chantrell's TinyTX to extend battery life: https://github.com/nathanchantrell/TinyTX/
 
+
+Its my first PCB so please be lenient :)
+
+
 ##License
 Proudly open source<br>
 The hardware designs (schematics and CAD files) are licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.<br>
