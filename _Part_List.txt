@@ -1,0 +1,62 @@
+I've tried to figure out which exactly Parts i need, so i created a list:
+
+1x Component: U1 , Type: DC-DC Step-up , Description: LTC3525ESC6-3.3#TRMPBF , Value: LTC3525-3.3 , Package: SC-70 , Manufacturer: LINEAR , Manufacturer part: LTC3525ESC6-3.3 (price: $4.16)
+1x Component: L1 , Type: Inductor , Description: I DC = 400mA min , Value: 10uH , Package: 1210 , Manufacturer: Murata , Manufacturer part: LQH32CN100K33L (price: $0,25)
+
+
+1x Component: C1 , Type: Capacitor , Description: X7R 10V 10% , Value: 1uF , Package: 0603 , Manufacturer: TDK , Manufacturer part: C1608X7R1A105K080AC  (price: $0,088)
+or:
+1x Component: C1 , Type: Capacitor , Description: X7R 16V 10% , Value: 1uF , Package: 0603 , Manufacturer: TAIYO YUDEN , Manufacturer part: EMK107B7105KA-T  (price: $0,16)
+or:
+1x Component: C1 , Type: Capacitor , Description: X5R 16V 10% , Value: 1uF , Package: 0603 , Manufacturer: TDK , Manufacturer part: C1608X5R1C105K080AA  (price: $0,012)
+or:
+1x Component: C1 , Type: Capacitor , Description: X5R 6.3V 10% , Value: 1uF , Package: 0603 , Manufacturer: KEMET , Manufacturer part: C0603C105K9PACTU  (price: $0,01)
+
+
+1x Component: C2 , Type: Capacitor , Description: X5R 10V 20% , Value: 10uF , Package: 0603 , Manufacturer: TAIYO YUDEN , Manufacturer part: LMK107BJ106MALTD  (price: $0,504)
+or:
+1x Component: C2 , Type: Capacitor , Description: X5R 6.3V 10% , Value: 10uF , Package: 0603 , Manufacturer: TDK , Manufacturer part: C1608X5R0J106K080AB  (price: $0,088)
+
+
+
+I would prefere for both Capacitor's á the last ones:
+ 
+1x Component: C1 , Type: Capacitor , Description: X5R 6.3V 10% , Value: 1uF , Package: 0603 , Manufacturer: KEMET , Manufacturer part: C0603C105K9PACTU  (price: $0,01)
+1x Component: C2 , Type: Capacitor , Description: X5R 6.3V 10% , Value: 10uF , Package: 0603 , Manufacturer: TDK , Manufacturer part: C1608X5R0J106K080AB  (price: $0,088)
+ 
+ 
+The Reason is: the max voltage of the LTC3525 is 6V and thermal running temperature is min: -40°C and max: +85°C
+
+Capacitor -> X5R or X7R types, not Y5V.
+
+E.g.:
+C1: http://de.mouser.com/ProductDetail/TDK/C1608X7R1A105K080AC/?qs=sGAEpiMZZMs0AnBnWHyRQEWjzA2rN6H9FHl8tRG0a%252bQ%3d
+C2: http://de.mouser.com/Search/ProductDetail.aspx?qs=PzICbMaShUde1djJr8Be9g==
+
+Alternative C2 Package: 0805
+
+Package 0603 is in inch.. Metrisch would be: 1608
+
+
+X5R = -55°C , +85°C  , +/- 15%
+X7R = -55°C , +125°C , +/- 15%
+http://de.wikipedia.org/wiki/Kerko#Klasse-2-Keramikkondensatoren
+
+
+Part search pages:
+http://de.mouser.com/Passive-Components/Capacitors/Ceramic-Capacitors/MLCCs-Multilayer-Ceramic-Capacitors/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT/_/N-bkrdv/
+http://www.newark.com/ceramic-multilayer-mlcc-capacitors-smd
+http://www.jameco.com/1/3/10uf-smd-capacitor
+http://at.farnell.com/jsp/search/browse.jsp?N=2001+215745&Ntk=gensearch&Ntt=CAPACITOR+CERAMIC+10uF+0603&Ntx=mode+matchallpartial
+http://octopart.com
+
+
+
+LTC3525ESC6-3.3:
+Betriebstemperatur, min.: -40°C max.: +85°C
+Versorgungsspannung, max.: 6V
+Versorgungsspannung, min.: 1V
+
+
+
+BAT state: http://jeelabs.org/2013/05/15/what-if-we-want-to-know-the-battery-state/
