@@ -33,11 +33,12 @@ Das PCB besteht aus 2 Layers:  Top (rot) und Bottom (blau)<br>
 Wenn man normalerweise ein Board in Eagle öffnet wird die Polygon Fläche nicht angezeigt - was bei mir auf dem Screenshot aber der Fall ist, deshalb ist auch fast das ganze Board mit Rot auf der Oberseite und Blau auf der Unterseite ausgefüllt... Diese Polygon Fläche (Kupfer) wird einerseits zur Kühlung genutzt, anderseits für GND und zusätzlich muss beim Herstellungsprozess weniger Kupfer weggeätzt werden - deshalb sind die unteren beiden GND Löt-Pads auch nicht extra verdrahtet, sondern eben mit beiden Polygon Flächen verbunden. 
 
 Beschriftungen auf der Oberseite:
-* Links oben ist das "Open Hardware" Logo.
+* Oben rechts ist das "Open Hardware" Logo.
 * Unten rechts ist ein "boost converter" Schriftzug.
-* Die Bauteile "L1" mit 10uH , "C1" mit 1uF und "C2" mit 10uF (dessen Schriftgröße ich bisher nicht zu ändern geschafft habe)
+* Die Bauteile "L1" mit 10uH , "C1" mit 1uF und "C2" mit 10uF
 
 Beschriftungen auf der Unterseite: (gespiegelt)
+* Die Lötbohrungen für die Messung der Batteriespannung: BAT state
 * Die Lötbohrungen für die Batterie: Vin und GND
 * Die Lötbohrungen für die TinyTX Platine: GND und Vout
 * Oben hab ich mir erlaubt einen Zweizeiler zu setzen:<br>
